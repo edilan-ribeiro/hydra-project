@@ -1,0 +1,35 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #302c42;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1750px;
+  margin: auto;
+}
+
+.apply-flex {
+  display: flex;
+}
+
+.big-button-style {
+  font-size: 1.2rem;
+  color: #343045;
+  font-weight: 700;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  padding: 17px 38px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.big-button-style:hover {
+  filter: brightness(1.2);
+}
