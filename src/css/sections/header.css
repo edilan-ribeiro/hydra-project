@@ -3,7 +3,6 @@
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px;
 }
 
 .header .logo {
@@ -60,7 +59,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .logo {
     transform: scale(0.9);
   }
@@ -73,6 +72,6 @@
 @media (max-width: 930px) {
   .logo {
     transform: scale(0.7);
-    margin: 0 -20px;
+    margin: 0 -30px;
   }
 }

@@ -7,12 +7,25 @@ body {
   font-size: 1.6rem;
   background-color: #302c42;
   font-weight: 400;
+  margin-top: 10px;
+}
+
+p {
+  color: #FFF;
 }
 
 .container {
-  max-width: 1750px;
+  max-width: 1650px;
   margin: auto;
+  padding: 0 50px;
 }
+
+@media (max-width: 930px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
 
 .apply-flex {
   display: flex;
