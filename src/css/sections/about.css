@@ -1,0 +1,64 @@
+.about {
+  margin-top: 80px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.top-about {
+    margin: 100px 0;
+}
+
+.title-wrap {
+    flex-direction: column;
+    width: 50%;
+}
+
+.top-about p {
+    max-width: 50%;
+    align-self: center;
+}
+
+.sub-title-about {
+  align-items: center;
+}
+
+.sub-title-about h3 {
+  margin-right: 30px;
+}
+
+.sub-title-about img {
+    width: 230px;
+    height: 60px;
+}
+
+
+.bottom-about {
+    background: url(../../images/about-content/line-1.png), url(../../images/about-content/line-2.png);
+    background-repeat: no-repeat;
+    background-position: top 80px right 90px,
+    bottom right 90px;
+}
+
+.img-wrap {
+    width: 50%;
+}
+
+.bottom-about img {
+    border-radius: 240px 110px;
+    align-items: center;
+}
+
+.about-info {
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.about-info .section-title {
+    margin-bottom: 40px;
+}
+
+.about-info a {
+    width: fit-content;
+    margin-top: 45px;
+}
