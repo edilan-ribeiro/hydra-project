@@ -24,6 +24,23 @@ p {
   display: flex;
 }
 
+.section-title,
+.section-subtitle {
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+}
+
+.section-title {
+  font-weight: 700;
+}
+
+.section-subtitle {
+  font-weight: 300;
+}
+
+
+
 .big-button-style {
   font-size: 1.2rem;
   color: #343045;
