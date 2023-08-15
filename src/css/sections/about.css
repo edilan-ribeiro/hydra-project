@@ -4,12 +4,6 @@
   margin-bottom: 100px;
 }
 
-.top-about {
-  margin: 100px 0;
-}
-
-.title-wrap,
-.top-about p,
 .img-wrap,
 .about-info {
   width: 50%;
@@ -17,23 +11,6 @@
 
 .title-wrap {
   flex-direction: column;
-}
-
-.top-about p {
-  align-self: center;
-}
-
-.sub-title-about {
-  align-items: center;
-}
-
-.sub-title-about h3 {
-  margin-right: 30px;
-}
-
-.sub-title-about img {
-  width: 230px;
-  height: 60px;
 }
 
 .bottom-about {
@@ -64,10 +41,6 @@
 /* RESPONSIVE */
 
 @media (max-width: 1300px) {
-  .sub-title-about img {
-    width: 150px;
-    height: 60px;
-  }
   .bottom-about img {
     max-width: 420px;
   }
@@ -78,8 +51,6 @@
 }
 
 @media (max-width: 1070px) {
-  .title-wrap,
-  .top-about p,
   .img-wrap,
   .about-info {
     transform: scale(0.9);
@@ -87,13 +58,10 @@
 }
 
 @media (max-width: 930px) {
-  .sub-title-about img,
-  .top-about p,
   .about-info h2 {
     display: none;
   }
 
-  .title-wrap,
   .img-wrap,
   .about-info {
     width: auto;
@@ -102,22 +70,6 @@
   .about {
     align-items: center;
     margin: 0 0 100px 0;
-  }
-
-  .top-about {
-    margin: 30px;
-  }
-
-  .title-wrap,
-  .sub-title-about {
-    margin: 0;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .sub-title-about h3 {
-    margin: 0;
   }
 
   .about-info {
@@ -146,7 +98,6 @@
     font-size: 1.2rem;
   }
 
-  .title-wrap,
   .about-info {
     transform: scale(1);
   }
