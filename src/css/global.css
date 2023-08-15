@@ -24,9 +24,35 @@ p {
   display: flex;
 }
 
+.top-sections {
+  margin: 100px 0;
+}
+
+.title-wrap,
+.top-sections p {
+  width: 50%;
+}
+
+.top-sections p {
+  align-self: center;
+}
+
+.sub-title-sections {
+  align-items: center;
+}
+
+.sub-title-sections h3 {
+  margin-right: 30px;
+}
+
+.sub-title-sections img {
+  width: 200px;
+  height: 50px;
+}
+
 .section-title,
 .section-subtitle {
-  color:#fff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 3.6rem;
 }
@@ -38,8 +64,6 @@ p {
 .section-subtitle {
   font-weight: 300;
 }
-
-
 
 .big-button-style {
   font-size: 1.2rem;
@@ -59,6 +83,20 @@ p {
 
 /* RESPONSIVE */
 
+@media (max-width: 1300px) {
+  .sub-title-sections img {
+    width: 150px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .top-sections p,
+  .title-wrap {
+    transform: scale(0.9);
+  }
+}
+
 @media (max-width: 930px) {
   .container {
     padding: 0 30px;
@@ -74,5 +112,34 @@ p {
     margin-bottom: 15px;
   }
 
+  .sub-title-sections img,
+  .top-sections p {
+    display: none;
+  }
 
+  .title-wrap {
+    width: auto;
+  }
+
+  .top-sections {
+    margin: 30px;
+  }
+
+  .title-wrap,
+  .sub-title-sections {
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sub-title-sections h3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .title-wrap {
+    transform: scale(1);
+  }
 }
