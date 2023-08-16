@@ -12,3 +12,8 @@ a {
     text-decoration: none;
     color: #FFF;
 }
+
+button {
+    outline: none;
+    border: none;
+}

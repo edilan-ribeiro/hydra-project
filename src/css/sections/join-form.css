@@ -1,0 +1,87 @@
+.join-form { 
+    justify-content: center;
+    align-items: center;
+}
+
+.join-form-wrap {
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 90px 110px;
+  justify-content: center;
+  width: 100%;
+}
+
+.join-form-wrap h2 {
+  margin-bottom: 20px;
+}
+
+.join-form-wrap img {
+  margin-bottom: 20px;
+}
+
+.join-form-wrap .section-subtitle {
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+form {
+    width: 100%;
+}
+
+.inputs-list {
+    flex-direction: column;
+ 
+}
+
+.input-item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.input-fields,
+.big-input-fields {
+  background: transparent;
+  border: solid 2px #fff;
+  border-radius: 40px;
+  padding: 20px 40px;
+  resize: none;
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.input-fields:focus,
+.big-input-fields:focus {
+    outline: none;
+    border: solid 2px #ffffff9d;
+    background-color: #5647472b;
+}
+
+.first-name,
+.email {
+    margin-right: 10px;
+}
+
+.input-fields {
+  width: 100%;
+}
+
+.big-input-fields {
+    width: 99%;
+}
+
+
+
+
+
+@media (max-width: 930px) {
+    .input-item {
+        flex-direction: column;
+    }
+
+}
+

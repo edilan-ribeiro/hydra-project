@@ -64,8 +64,8 @@
           <div class="top-button">
             <nav>
               <ul>
-                <li><a href="#" class="contact-btn">contact us</a></li>
-                <li><a href="#" class="big-button-style">join hydra</a></li>
+                <li><a href="#contact-info" class="contact-btn">contact us</a></li>
+                <li><a href="#join-form" class="big-button-style">join hydra</a></li>
               </ul>
             </nav>
           </div>
@@ -90,7 +90,7 @@
           </div>
         </div>
 
-        <div class="hero-contact-info apply-flex">
+        <div class="hero-contact-info apply-flex" id="contact-info">
           <div class="apply-flex contact-group ">
             <a href="#"><img src="./src/images/location-Icon.svg" alt="location icon" /></a>
             <div class="info">
@@ -344,8 +344,50 @@
 
       </section>
 
-      <section class="join-form">
+      <section class="join-form container apply-flex">
 
+        <div class="join-form-wrap apply-flex container">
+        <h2 class="section-title">
+          JOIN HYDRA
+        </h2>
+        <img src="./src/images/form-content/line.svg" alt="line separator">
+        <h3 class="section-subtitle">
+          Let’s Build Your VR Experience
+        </h3>
+
+        <form action="#" method="post" id="join-form">
+
+          
+          <ul class="inputs-list">
+            <li class="input-item">
+              <input type="text" name="first-name" id="first-name" placeholder="First Name" class="input-fields first-name">
+              <p class="error-empty input-error hide">Please enter your first name</p>
+
+              <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="input-fields">
+              <p class="error-empty input-error hide">Please enter your last name</p>
+            </li>
+            <li class="input-item">
+              <input type="email" name="email" id="email" placeholder="Email" class="input-fields email">
+              <p class="email-error input-error hide">Please insert a valid email</p>
+
+              <input type="tel" name="phone" id="phone" placeholder="Phone Number" class="input-fields">
+              <p class="phone-error input-error hide">Please insert a valid phone number</p>
+            </li>
+            <li class="input-item">
+              <input type="text" name="subject" id="subject" placeholder="Subject" class="big-input-fields">
+              <p class="subject-error input-error hide">Please enter a subject</p>
+            </li>
+            <li class="input-item">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell Us Something..." class="big-input-fields"></textarea>
+              <p class="message-error input-error hide">Please enter at least 6 characters</p>
+            </li>
+          </ul>
+                    
+        </form>
+
+        <button type="submit" form="join-form" class="big-button-style">SEND TO HYDRA</button>
+
+      </div>
       </section>
 
       <section class="footer"></section>
