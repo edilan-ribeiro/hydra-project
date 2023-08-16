@@ -1,0 +1,136 @@
+.tech-section {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.tech-title {
+  background-color: #211e2e;
+  border-radius: 160px;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  background-image: url(../../images/tech-content/title-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.tech-section .arrow-down {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%);
+  border: 9px solid rgba(30, 30, 30, 0.968);
+  z-index: 1;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tech-section .arrow {
+  display: none;
+  position: absolute;
+  align-self: center;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%);
+  border: 9px solid rgba(30, 30, 30, 0.968);
+  z-index: 1;
+}
+
+.tech-section .arrow.right {
+  right: 0;
+}
+
+.tech-section .arrow.left {
+  left: 0;
+  transform: scale(-1);
+}
+
+.tech-title h2 {
+  padding-top: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tech-title h3 {
+  padding-bottom: 95px;
+  text-align: center;
+}
+
+.tech-list {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.tech-list .unreal-logo {
+  width: 175px;
+  height: 175px;
+  opacity: 0.35;
+}
+
+.tech-list .logos {
+  opacity: 0.35;
+  width: 260px;
+  height: 260px;
+}
+
+@media (max-width: 1250px) {
+  .tech-list {
+    transform: scale(0.9);
+  }
+
+  .tech-list .unreal-logo,
+  .tech-list .logos {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 930px) {
+  .tech-title {
+    background-position: left;
+    margin-bottom: 0;
+  }
+
+  .tech-title h2 {
+    font-size: 1.6rem;
+    padding-top: 50px;
+  }
+  .tech-title h3 {
+    font-size: 2.6rem;
+    padding-bottom: 40px;
+  }
+
+  .arrow-down {
+    display: none;
+  }
+
+  .tech-list {
+    justify-content: center;
+    position: relative;
+    width: 345px;
+    height: 170px;
+  }
+
+  .tech-list {
+    transform: scale(1);
+  }
+
+  .tech-section .arrow {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .tech-title {
+    background-image: url(../../images/tech-content/title-bg-mobile.png);
+    border-radius: 70px;
+  }
+}
