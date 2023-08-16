@@ -1,6 +1,6 @@
-.join-form { 
-    justify-content: center;
-    align-items: center;
+.join-form {
+  justify-content: center;
+  align-items: center;
 }
 
 .join-form-wrap {
@@ -22,24 +22,23 @@
   margin-bottom: 20px;
 }
 
-.join-form-wrap .section-subtitle {
+.join-form-wrap h3 {
   text-transform: capitalize;
   margin-bottom: 60px;
 }
 
 form {
-    width: 100%;
+  width: 100%;
 }
 
 .inputs-list {
-    flex-direction: column;
- 
+  flex-direction: column;
 }
 
 .input-item {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 .input-fields,
@@ -56,14 +55,21 @@ form {
 
 .input-fields:focus,
 .big-input-fields:focus {
-    outline: none;
-    border: solid 2px #ffffff9d;
-    background-color: #5647472b;
+  outline: none;
+  border: solid 2px #ffffff9d;
+  background-color: #5647471a;
+  transition: 0.2s ease-in-out;
+}
+
+.input-fields::placeholder,
+.big-input-fields::placeholder {
+  color: #ffffffa1;
+  font-family: "Montserrat", sans-serif;
 }
 
 .first-name,
 .email {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .input-fields {
@@ -71,17 +77,34 @@ form {
 }
 
 .big-input-fields {
-    width: 99%;
+  width: 100%;
 }
-
-
-
-
 
 @media (max-width: 930px) {
-    .input-item {
-        flex-direction: column;
-    }
+  .join-form-wrap {
+    border-radius: 40px;
+  }
 
+  .join-form-wrap h2,
+  .join-form-wrap h3 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .join-form-wrap img {
+    max-width: 50%;
+  }
+
+  .input-item {
+    flex-direction: column;
+  }
+
+  .input-fields,
+  .big-input-fields {
+    padding: 20px 30px;
+  }
+
+  .join-form {
+    margin-bottom: 80px;
+  }
 }
-
