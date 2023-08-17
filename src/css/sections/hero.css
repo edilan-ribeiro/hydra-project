@@ -1,8 +1,8 @@
 .hero {
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
-  background-image: url(../../images/bg-hero-text.svg);
+  height: 95vh;
+  background-image: url(../../images/hero-content/bg-hero-text.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
   margin-bottom: 20px;
@@ -48,7 +48,7 @@
   width: 50%;
   align-items: center;
   justify-content: center;
-  background: url(../../images/bg-hero-pic-removebg-preview.png);
+  background: url(../../images/hero-content/bg-hero-pic.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -159,9 +159,9 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
   .hero-info .info-btn a {
-    padding: 17px 30px;
+    padding: 17px 20px;
   }
 }
 
@@ -175,7 +175,6 @@
   }
 
   .hero-right-side {
-    margin-top: -150px;
     height: 60vh;
   }
 
@@ -191,7 +190,6 @@
   }
 
   .hero-info h1 {
-    margin-top: -50px;
     font-size: 3.6rem;
   }
 
@@ -221,12 +219,10 @@
   }
 
   .hero-info h1 {
-    margin-top: -70px;
     font-size: 2.6rem;
   }
 
   .hero-right-side {
-    margin-top: -90px;
   }
 
   .hero-right-side img {
