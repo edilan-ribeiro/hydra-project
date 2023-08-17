@@ -84,7 +84,7 @@
 
 @media (max-width: 1250px) {
   .tech-list {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 
   .tech-list .unreal-logo,
