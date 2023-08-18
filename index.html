@@ -26,11 +26,11 @@
   </head>
   <body>
     <main class="main">
-      <header class="header apply-flex container">
-        <div class="logo apply-flex">
-          <a href="/"><img src="src/images/logo.svg" alt="hydra logo" /></a>
+      <header class="header apply-flex container" id="header">
+       <div class="logo apply-flex">
+          <a href="/"><img src="./src/images/header-content/logo.svg" alt="hydra logo" /></a>
 
-          <a href="/"><img src="src/images/logo-text.svg" alt="hydra name" /></a>
+          <a href="/"><img src="./src/images/header-content/logo-text.svg" alt="hydra name" /></a>
         </div>
 
         <input type="checkbox" name="menu-hamburguer" id="menu-hamburguer" />
@@ -50,25 +50,24 @@
             <nav>
               <ul>
                 <li>
-                  <a href="#about">about</a>
+                  <a href="#about" class="hover-underline-animation">about</a>
                 </li>
                 <li>
-                  <a href="#services">services</a>
+                  <a href="#services" class="hover-underline-animation">services</a>
                 </li>
                 <li>
-                  <a href="#technologies">technologies</a>
+                  <a href="#technologies" class="hover-underline-animation">technologies</a>
                 </li>
-                <li><a href="#how-to">how to</a></li>
+                <li><a href="#how-to" class="hover-underline-animation">how to</a></li>
               </ul>
             </nav>
           </div>
 
           <div class="top-button">
             <nav>
-              <ul>
-                <li><a href="#contact-info" class="contact-btn">contact us</a></li>
-                <li><a href="#join-form" class="big-button-style">join hydra</a></li>
-              </ul>
+   
+               <a href="#join-form" class="big-button-style">join hydra</a>
+ 
             </nav>
           </div>
         </div>
@@ -83,18 +82,18 @@
             </div>
             <div class="info-btn apply-flex">
               <a href="#" class="big-button-style">build your world</a>
-              <img src="src/images/arrow-small-right.svg" alt="arrow pointing right" />
+              <img src="./src/images/arrow-small-right.svg" alt="arrow pointing right" />
             </div>
           </div>
 
           <div class="hero-right-side apply-flex">
-            <img src="./src/images/hero-right-img.png" alt="woman using vr kit" />
+            <img src="./src/images/hero-content/hero-right-img.png" alt="woman using vr kit" />
           </div>
         </div>
 
         <div class="hero-contact-info apply-flex" id="contact-info">
           <div class="apply-flex contact-group ">
-            <a href="#"><img src="./src/images/location-Icon.svg" alt="location icon" /></a>
+            <a href="#"><img src="./src/images/hero-content/location-Icon.svg" alt="location icon" /></a>
             <div class="info">
               <h2>Pay Us a Visit</h2>
               <p>Union St, Seattle, WA 98101, United States</p>
@@ -104,7 +103,7 @@
           <span class="separator"></span>
 
           <div class="apply-flex contact-group">
-            <a href="#"><img src="./src/images/phone-call.svg" alt="phone icon" /></a>
+            <a href="#"><img src="./src/images/hero-content/phone-icon.svg" alt="phone icon" /></a>
             <div class="info">
               <h2>Give Us a Call</h2>
               <p>(110) 1111-1010</p>
@@ -113,7 +112,7 @@
           <span class="separator"></span>
 
           <div class="apply-flex contact-group">
-            <a href="#"><img src="./src/images/mail.svg" alt="mail icon" /></a>
+            <a href="#"><img src="./src/images/hero-content/phone-icon.svg" alt="mail icon" /></a>
             <div class="info">
               <h2>Send Us a Message</h2>
               <p>Contact@HydraVTech.com</p>
@@ -393,36 +392,39 @@
       </section>
 
       <section class="footer container apply-flex">
-
-
+        
         <div class="footer-wrap apply-flex">
 
         <div class="footer-group footer-logo">
-          <img src="./src/images/footer-content/big-hydra-logo.svg" alt="the hydra logo">
+          <a href="/"><img src="./src/images/footer-content/big-hydra-logo.svg" alt="the hydra logo"></a>
         </div>
 
         <img  class="footer-separator" src="./src/images/footer-content/footer-separator.svg" alt="line separating blocks of information">
 
         <div class="footer-group">
+          <nav>
           <ul class="site-links">
-            <li><a href="#about">about</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#technologies">technologies</a></li>
-            <li><a href="#how-to">how to</a></li>
-            <li><a href="#join-form">join hydra</a></li>
+            <li><a href="#about" class="hover-underline-animation">about</a></li>
+            <li><a href="#services" class="hover-underline-animation">services</a></li>
+            <li><a href="#technologies" class="hover-underline-animation">technologies</a></li>
+            <li><a href="#how-to" class="hover-underline-animation">how to</a></li>
+            <li><a href="#join-form" class="hover-underline-animation">join hydra</a></li>
           </ul>
+        </nav>
         </div>
 
         <img class="footer-separator" src="./src/images/footer-content/footer-separator.svg" alt="line separating blocks of information">
 
 
         <div class="footer-group">
+          <nav>
           <ul class="site-links">
-            <li><a href="#">f.a.q</a></li>
-            <li><a href="#">sitemap</a></li>
-            <li><a href="#">conditions</a></li>
-            <li><a href="#">licenses</a></li>
+            <li><a href="#" class="hover-underline-animation">f.a.q</a></li>
+            <li><a href="#" class="hover-underline-animation">sitemap</a></li>
+            <li><a href="#" class="hover-underline-animation">conditions</a></li>
+            <li><a href="#" class="hover-underline-animation">licenses</a></li>
           </ul>
+        </nav>
         </div>
 
         <img class="footer-separator" src="./src/images/footer-content/footer-separator.svg" alt="line separating blocks of information">
@@ -430,6 +432,7 @@
         <div class="footer-group">
           <h2>SOCIALIZE WITH HYDRA</h2>
 
+          <nav>
           <ul class="socials apply-flex">
             <li><a href="#">
               <i class="fa-brands fa-facebook"></i>
@@ -450,6 +453,7 @@
               <i class="fa-brands fa-pinterest"></i>
             </a></li>
           </ul>
+        </nav>
 
           <a href="#" class="big-button-style">BUILD YOUR WORLD</a>
         </div>
@@ -457,10 +461,12 @@
       </div>
 
         <div class="footer-end apply-flex">
-          <p><span id="footer-end-text">2023</span> © HYDRA LANDING PAGE - CODE BY EDILAN RIBEIRO - FIGMA DESIGN BY ZINE. E. FALOUTI </p>
+          <p>2023 © HYDRA LANDING PAGE - CODE BY EDILAN RIBEIRO - FIGMA DESIGN BY ZINE. E. FALOUTI </p>
         </div>
         
       </section>
     </main>
+
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
