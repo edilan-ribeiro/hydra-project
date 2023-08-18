@@ -3,7 +3,6 @@
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   z-index: 3;
 }
 
@@ -74,6 +73,10 @@
 }
 
 @media (max-width: 930px) {
+  .header {
+    position: absolute;
+  }
+  
   .logo {
     transform: scale(0.7);
     margin: 0 -30px;
