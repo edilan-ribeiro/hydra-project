@@ -27,6 +27,10 @@
   font-size: 1.6rem;
 }
 
+.site-links a:hover{
+  filter: brightness(0.7);
+}
+
 .footer-group h2 {
   color: #fff;
   font-size: 1.6rem;
