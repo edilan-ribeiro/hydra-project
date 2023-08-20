@@ -1,5 +1,68 @@
 .hide {
+  visibility: hidden;
+}
+
+.none {
   display: none;
 }
 
-/* MUST CONFIGURE MOBILE SLIDER */
+/* HERO MOBILE SLIDER */
+.mobile-contact-slider {
+  position: relative;
+  width: 350px;
+  height: 100px;
+  overflow: hidden;
+  justify-content: center;
+  align-self: center;
+}
+
+.out-of-screen {
+  position: absolute;
+}
+
+.out-of-screen-translate {
+  transform: translateX(-100%);
+}
+
+.mobile-contact-slider .arrow {
+  position: absolute;
+  cursor: pointer;
+  margin: 10px;
+  z-index: 2;
+}
+
+.mobile-contact-slider .arrow.left {
+  left: 0;
+  transform: scale(-1);
+}
+
+.mobile-contact-slider .arrow.right {
+  right: 0;
+}
+
+.mobile-contact-slider .arrow:hover {
+  filter: brightness(0.5);
+}
+
+/* RESPONSIVE HERO SLIDER */
+
+@media (min-width: 930px) {
+  .mobile-contact-slider .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .mobile-contact-slider {
+    margin: 0;
+  }
+}
+
+
+
+/* FORM */
+.input-error {
+  font-size: 1.2rem;
+  color: #ff0000;
+  position: absolute;
+}
