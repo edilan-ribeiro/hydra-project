@@ -33,6 +33,7 @@ form {
 }
 
 .inputs-list {
+  display: flex;
   flex-direction: column;
 }
 
@@ -82,8 +83,13 @@ form {
 }
 
 @media (max-width: 930px) {
+  .join-form {
+    margin-bottom: 80px;
+  }
+
   .join-form-wrap {
     border-radius: 40px;
+    padding: 20px;
   }
 
   .join-form-wrap h2,
@@ -103,9 +109,6 @@ form {
   .input-fields,
   .big-input-fields {
     padding: 20px 30px;
-  }
-
-  .join-form {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 }
