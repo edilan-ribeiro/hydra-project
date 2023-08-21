@@ -1,7 +1,6 @@
 .tech-section {
   flex-direction: column;
   align-items: center;
- 
 }
 
 .tech-title {
@@ -94,6 +93,10 @@
 }
 
 @media (max-width: 930px) {
+  .tech-section {
+    margin-bottom: 30px;
+  }
+
   .tech-title {
     background-position: left;
     margin-bottom: 0;
@@ -115,13 +118,16 @@
   .tech-list {
     justify-content: center;
     position: relative;
-    width: 345px;
+    width: 340px;
     height: 170px;
     overflow: hidden;
+    transform: scale(1);
+    margin-top: 45px;
   }
 
   .tech-section .arrow {
     display: block;
+    cursor: pointer;
   }
 
   .logos {

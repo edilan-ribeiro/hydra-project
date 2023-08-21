@@ -36,10 +36,10 @@ techRightArrow.addEventListener('click', function() {
 
 function techApplyTransform() {
     if (window.innerWidth < 931) {
-      techSliderItems[0].style.transform = 'translateX(0px) scale(0.8)';
-      techSliderItems[1].style.transform = 'translateX(330px) scale(0.8)';
-      techSliderItems[2].style.transform = 'translateX(660px) scale(0.8)';
-      techSliderItems[3].style.transform = 'translateX(990px) scale(0.8)';
+      techSliderItems[0].style.transform = 'translateX(0px) scale(0.9)';
+      techSliderItems[1].style.transform = 'translateX(330px) scale(0.9)';
+      techSliderItems[2].style.transform = 'translateX(660px) scale(0.9)';
+      techSliderItems[3].style.transform = 'translateX(990px) scale(0.9)';
     } else {
       techSliderItems.forEach(item => item.style.transform = '');
     }
