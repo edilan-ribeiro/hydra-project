@@ -184,11 +184,11 @@
         </div>
       
 
-        <div class="services-square-wrap apply-flex" >
-          <img src="src/images/big-slider-chevrons.svg" alt="right arrow" class="arrow right">
-          <img src="src/images/big-slider-chevrons.svg" alt="left arrow" class="arrow left">
+        <div class="services-square-wrap apply-flex" id="services-slider-container">
+          <img src="src/images/big-slider-chevrons.svg" alt="right arrow" class="arrow right" id="svc-ar-right">
+          <img src="src/images/big-slider-chevrons.svg" alt="left arrow" class="arrow left" id="svc-ar-left">
 
-          <div class="service-square apply-flex">
+          <div class="service-square apply-flex ">
             <img src="./src/images/services-content/sv-1.png" alt="person in a vr simulation">
             <h2>simulation</h2>
             <p>Vitae sapien pellentesque habitant morbi
@@ -197,7 +197,7 @@
             <a href="#" class="big-button-style">try it now</a>
           </div>
 
-          <div class="service-square apply-flex">
+          <div class="service-square apply-flex ">
             <img src="./src/images/services-content/sv-2.png" alt="person in a vr class">
             <h2>education</h2>
             <p>Vitae sapien pellentesque habitant morbi
@@ -206,7 +206,7 @@
             <a href="#" class="big-button-style">try it now</a>
           </div>
 
-          <div class="service-square apply-flex">
+          <div class="service-square apply-flex ">
             <img src="./src/images/services-content/sv-3.png" alt="person using vr doing yoga">
             <h2>self-care</h2>
             <p>Vitae sapien pellentesque habitant morbi
@@ -215,7 +215,7 @@
             <a href="#" class="big-button-style">try it now</a>
           </div>
 
-          <div class="service-square apply-flex">
+          <div class="service-square apply-flex ">
             <img src="./src/images/services-content/sv-4.png" alt="person using vr outside">
             <h2>outdoor</h2>
             <p>Vitae sapien pellentesque habitant morbi
@@ -446,7 +446,10 @@
         
       </section>
     </main>
+   
 
-    <script src="./src/js/actions/hero-slider.js"></script>
+    <script src="./src/js/actions/hero-slider.js" type="module"></script>
+    <script src="./src/js/actions/services-slider.js" type="module"></script>
+    <script src="./src/js/main.js" type="module"></script>
   </body>
 </html>
