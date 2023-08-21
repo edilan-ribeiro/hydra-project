@@ -1,14 +1,17 @@
 import { heroResize } from './actions/hero-slider.js'
 import { heroLoad } from './actions/hero-slider.js'
-import { applyTransform } from './actions/services-slider.js'
+import { heroApplyTransform } from './actions/services-slider.js'
+import { techApplyTransform } from './actions/tech-section-slider.js'
 
 
 window.addEventListener('load', function() {
-  heroLoad();
-  applyTransform();
-});
+  heroLoad()
+  heroApplyTransform()
+  techApplyTransform()
+})
 
 window.addEventListener('resize', function() {
-  heroResize();
-  applyTransform();
+  heroResize()
+  heroApplyTransform()
+  techApplyTransform()
 });

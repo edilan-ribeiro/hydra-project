@@ -70,16 +70,16 @@
   position: relative;
 }
 
-.tech-list .unreal-logo {
-  width: 175px;
-  height: 175px;
-  opacity: 0.35;
-}
-
 .tech-list .logos {
   opacity: 0.35;
   width: 260px;
   height: 260px;
+}
+
+.tech-list .unreal-logo {
+  width: 175px;
+  height: 175px;
+  opacity: 0.35;
 }
 
 @media (max-width: 1250px) {
@@ -117,14 +117,16 @@
     position: relative;
     width: 345px;
     height: 170px;
-  }
-
-  .tech-list {
-    transform: scale(1);
+    overflow: hidden;
   }
 
   .tech-section .arrow {
     display: block;
+  }
+
+  .logos {
+    position: absolute;
+    transition: 0.5s ease-in-out;
   }
 }
 
