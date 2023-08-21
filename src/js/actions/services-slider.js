@@ -1,4 +1,3 @@
-let sliderContainer = document.getElementById('services-slider-container');
 let aboutSliderItems = document.querySelectorAll('.service-square');
 let aboutRightArrow = document.getElementById('svc-ar-right');
 let aboutLeftArrow = document.getElementById('svc-ar-left');
@@ -27,7 +26,7 @@ aboutRightArrow.addEventListener('click', function() {
 
   function slide() {
     let itemWidth = aboutSliderItems[0].clientWidth;
-    let gap = 20;
+    let gap = 30;
   
     for (let i = 0; i < aboutSliderItems.length; i++) {
       aboutSliderItems[i].style.transform = 'translateX(' + ((i - aboutIndex) * (itemWidth + gap)) + 'px)';
@@ -36,7 +35,7 @@ aboutRightArrow.addEventListener('click', function() {
   
 
 
-function applyTransform() {
+function servicesApplyTransform() {
     if (window.innerWidth < 931) {
       aboutSliderItems[0].style.transform = 'translateX(0px)';
       aboutSliderItems[1].style.transform = 'translateX(330px)';
@@ -48,4 +47,4 @@ function applyTransform() {
   }
   
 
-  export {applyTransform}
+  export {servicesApplyTransform}
