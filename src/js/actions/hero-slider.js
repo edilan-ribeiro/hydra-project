@@ -7,7 +7,7 @@ let sliderItems = document.querySelectorAll(".contact-group");
 let heroRightArrow = document.getElementById("hero-arrow-right");
 let heroLeftArrow = document.getElementById("hero-arrow-left");
 
-window.onload = function () {
+function heroLoad() {
   if (window.innerWidth < 931) {
     heroRightArrow.classList.remove("none", "hide");
     heroLeftArrow.classList.remove("none", "hide");
@@ -23,9 +23,9 @@ window.onload = function () {
     sliderItems[1].classList.remove("out-of-screen", "hide", "out-of-screen-translate");
     sliderItems[2].classList.remove("out-of-screen", "hide", "out-of-screen-translate");
   }
-};
+}
 
-window.addEventListener("resize", () => {
+function heroResize() {
 
   let isHideApplied = false
  
@@ -54,7 +54,7 @@ window.addEventListener("resize", () => {
 
     isHideApplied = false;
   } 
-})
+}
 
 heroRightArrow.addEventListener("click", function moveRight() {
   currentIndex++;
@@ -84,8 +84,11 @@ heroLeftArrow.addEventListener("click", function moveLeft() {
 });
 
 function sliderPosition() {
-  for (i = 0; i < sliderItems.length; i++) {
+  for (let i = 0 ; i < sliderItems.length; i++) {
     const newPosition = (i - currentIndex) * 300;
     sliderItems[i].style.transform = `translateX(${newPosition}%)`;
   }
 }
+
+
+export {heroResize, heroLoad}
