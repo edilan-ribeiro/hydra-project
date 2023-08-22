@@ -3,7 +3,7 @@
 <div align="center">
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/edilan-ribeiro/hydra-project/blob/main/README.en.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/edilan-ribeiro/hydra-project/blob/main/README.en.md) 
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/edilan-ribeiro/hydra-project/blob/main/README.md) 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
