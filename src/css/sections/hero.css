@@ -1,7 +1,7 @@
 .hero {
   flex-direction: column;
   justify-content: center;
-  height: 85vh;
+  height: 75vh;
   background-image: url(../../images/hero-content/bg-hero-text.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
