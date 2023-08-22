@@ -66,6 +66,10 @@
   font-weight: 700;
 }
 
+.footer-end a {
+  text-decoration: underline;
+}
+
 @media (max-width: 930px) {
   .footer {
     align-items: center;
