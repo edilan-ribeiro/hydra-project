@@ -1,5 +1,6 @@
 .hide {
   visibility: hidden;
+  transition: 0.5s ease-in-out;
 }
 
 .none {
@@ -9,7 +10,7 @@
 /* HERO MOBILE SLIDER */
 .mobile-contact-slider {
   position: relative;
-  width: 350px;
+  width: 348px;
   height: 100px;
   overflow: hidden;
   justify-content: center;
@@ -56,11 +57,4 @@
   .mobile-contact-slider {
     margin: 0;
   }
-}
-
-/* FORM */
-.input-error {
-  font-size: 1.2rem;
-  color: #ff0000;
-  position: absolute;
 }

@@ -3,6 +3,7 @@ import { heroLoad } from './actions/hero-slider.js'
 import { servicesApplyTransform } from './actions/services-slider.js'
 import { techApplyTransform } from './actions/tech-section-slider.js'
 import { howToApplyTransform } from './actions/how-to.js'
+import { formActions } from './actions/form.js'
 
 
 window.addEventListener('load', function() {
@@ -18,3 +19,6 @@ window.addEventListener('resize', function() {
   techApplyTransform()
   howToApplyTransform()
 });
+
+
+formActions()

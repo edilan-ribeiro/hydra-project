@@ -37,9 +37,11 @@ form {
   flex-direction: column;
 }
 
-.input-item {
+.input-item,
+.input-item span {
   display: flex;
   flex-direction: row;
+  width: 100%;
   position: relative;
 }
 
@@ -53,6 +55,7 @@ form {
   font-size: 1.4rem;
   color: #fff;
   margin-bottom: 40px;
+  transition: 0.3s ease-in-out;
 }
 
 .input-fields:focus,
@@ -80,6 +83,15 @@ form {
 
 .big-input-fields {
   width: 100%;
+}
+
+.input-error {
+  font-size: 1.2rem;
+  color: #ff0000;
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 930px) {
