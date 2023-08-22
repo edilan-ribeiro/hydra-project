@@ -17,3 +17,24 @@ button {
   outline: none;
   border: none;
 }
+
+/* Scrollbar */
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8275b8 #c0b7e8;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c0b7e8;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8275b8;
+  border-radius: 15px;
+  border: 1px none #f2f2f2;
+}
