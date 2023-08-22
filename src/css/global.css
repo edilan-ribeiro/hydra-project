@@ -77,7 +77,13 @@ p {
   transition: 0.3s ease-in-out;
 }
 
-.big-button-style:hover {
+.big-button-style:hover,
+.services .arrow.right:hover, 
+.services .arrow.left:hover,
+.how-to .arrow.right:hover,
+.how-to .arrow.left:hover,
+.tech-section .arrow.right:hover,
+.tech-section .arrow.left:hover {
   filter: brightness(1.2);
 }
 
