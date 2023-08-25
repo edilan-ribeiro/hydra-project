@@ -93,6 +93,7 @@
     height: 511px;
     flex-wrap: nowrap;
     overflow: hidden;
+    margin: 0 0;
   }
 
   .service-square {
